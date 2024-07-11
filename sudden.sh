@@ -9,6 +9,7 @@ do
 	    echo "SUDDEN!!!"
 	else
 	    clear
+	    figlet KIA
 	    date
 	fi
 	sleep 3
