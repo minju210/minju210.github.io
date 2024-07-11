@@ -4,8 +4,12 @@ FILE=~/tmp/_SUDDEN
 
 while true
 do
-	if 파일이 있으면
-	   echo "SUDDEN!!!"
-
+	if [ -f "$FILE" ]; then
+	    #echo "check $FILE"
+	    echo "SUDDEN!!!"
+	else
+	    clear
+	    date
+	fi
 	sleep 3
 done
