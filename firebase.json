@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site": "parkmandu",
+    "public": "docs",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

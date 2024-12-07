@@ -1,6 +1,6 @@
-# minju210.github.io
+# parkmandu
 
-### VERSION
-- 1.4.0 : KIA
-- 1.5.0 : HYUNDAI
-- 3.0.0 : SUDDEN SHELL SCRIPT
+### deploy
+```bash
+$ firebase deploy --only hosting:parkmandu
+```
